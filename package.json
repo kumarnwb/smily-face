@@ -1,0 +1,24 @@
+{
+  "name": "smily-face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarnwb/smily-face.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarnwb/smily-face/issues"
+  },
+  "homepage": "https://github.com/kumarnwb/smily-face#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
